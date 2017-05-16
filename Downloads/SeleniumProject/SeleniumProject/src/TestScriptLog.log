@@ -1,0 +1,43 @@
+2017-05-10 07:54:35 [INFO] [main] [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@9da3f3: startup date [Wed May 10 07:54:35 IST 2017]; root of context hierarchy
+2017-05-10 07:54:36 [INFO] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-05-10 07:54:39 [INFO] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16690c0: defining beans [genericInterfaceBean,doBeforeAspect,doAfterAspect,doAfterReturningAspect,doAfterThrowingAspect,doAroundAspect,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,pointCutBefore,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,pointCutAfter,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,pointCutAfterReturning,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,pointCutAfterThrowing,org.springframework.aop.aspectj.AspectJPointcutAdvisor#4,pointCutAround]; root of factory hierarchy
+2017-05-10 07:54:40 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoBeforeAspect] ***AspectJ*** DoBefore() is running!! intercepted : maxiWindow
+2017-05-10 07:54:40 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] DoAfterThrowing() is running!! intercepted :maxiWindow 
+arguments : []
+2017-05-10 07:54:40 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() before is running!
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() after is running!
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] DoAfterReturning() is running!! intercepted :maxiWindow
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] Method returned value is : null
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterAspect] ***AspectJ*** DoAfter() is running!! intercepted : maxiWindow
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoBeforeAspect] ***AspectJ*** DoBefore() is running!! intercepted : setImplicitTimeOut
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] DoAfterThrowing() is running!! intercepted :setImplicitTimeOut 
+arguments : []
+2017-05-10 07:54:42 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() before is running!
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() after is running!
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] DoAfterReturning() is running!! intercepted :setImplicitTimeOut
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] Method returned value is : null
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterAspect] ***AspectJ*** DoAfter() is running!! intercepted : setImplicitTimeOut
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoBeforeAspect] ***AspectJ*** DoBefore() is running!! intercepted : setValueInTextBox
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] DoAfterThrowing() is running!! intercepted :setValueInTextBox 
+arguments : [fromTextBox, MakeMyTripPage, TC001]
+2017-05-10 07:54:43 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() before is running!
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() after is running!
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] DoAfterReturning() is running!! intercepted :setValueInTextBox
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] Method returned value is : null
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterAspect] ***AspectJ*** DoAfter() is running!! intercepted : setValueInTextBox
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoBeforeAspect] ***AspectJ*** DoBefore() is running!! intercepted : setValueInTextBox
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] DoAfterThrowing() is running!! intercepted :setValueInTextBox 
+arguments : [toTextBox, MakeMyTripPage, TC001]
+2017-05-10 07:54:48 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() before is running!
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() after is running!
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] DoAfterReturning() is running!! intercepted :setValueInTextBox
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] Method returned value is : null
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterAspect] ***AspectJ*** DoAfter() is running!! intercepted : setValueInTextBox
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoBeforeAspect] ***AspectJ*** DoBefore() is running!! intercepted : clickElement
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] DoAfterThrowing() is running!! intercepted :clickElement 
+arguments : [searchBtn, MakeMyTripPage]
+2017-05-10 07:54:50 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() before is running!
+2017-05-10 07:54:58 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAroundAspect] ***AspectJ*** DoAround() after is running!
+2017-05-10 07:54:58 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] DoAfterReturning() is running!! intercepted :clickElement
+2017-05-10 07:54:58 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect] Method returned value is : null
+2017-05-10 07:54:58 [INFO] [main] [com.AOP.snippets.enterprise.aspect.DoAfterAspect] ***AspectJ*** DoAfter() is running!! intercepted : clickElement

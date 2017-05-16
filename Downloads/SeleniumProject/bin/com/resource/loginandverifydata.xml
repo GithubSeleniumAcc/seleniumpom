@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<RecordType>
+
+	<page name="LoginPage">
+		<record id="TC001" userName="anna15feb@gmail.com"  password ="anna15feb" />
+		<record id="TC002" userName="abc"  password ="bcd" />
+	</page>
+	
+	<page name="HomePage">
+		<record id="TC001" title="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs '&amp;' more" />
+	</page>
+	
+	<page name="MakeMyTripPage">
+		<record id="TC001" fromTextBox="Bangalore"  toTextBox="Mumbai"/>
+	</page>
+	
+</RecordType>

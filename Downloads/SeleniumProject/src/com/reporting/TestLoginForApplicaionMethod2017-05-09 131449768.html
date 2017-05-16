@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Report generated on #DATETIME#</title>
+<head>
+<body bgcolor="#F5F5F5"> 
+
+<h3> <img align="left" src="image/allstate.jpg"/ style="width:150px;height:80px;">  <img align="right" src="image/accenture.jpg"/ style="width:150px;height:80px;"> </h3>
+<h3 align="center">Test results  for Test Case AmazonLogin</h3>
+
+<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+
+<table border="2">
+<tr>
+<th align="center" width="10%">Class Name</th>
+<th align="center" width="10%">Method Name</th>
+<th align="center" width="10%">Execution Time( In milliseconds )</th>
+<th align="center" width="10%">Result</th>
+</tr>
+<tr><td>MakeMyTripPageImpl</td><td>searchTriptDetails</td><td>12</td><td bgcolor=#FF0000>Fail</td></tr><!-- INSERT_RESULTS -->
+</table>
+ 
+ <p> <div style="overflow-x:scroll;"> java.lang.NullPointerException
+	at com.utils.GenericMethods.getElement(GenericMethods.java:115)
+	at com.utils.GenericMethods.setValueInTextBox(GenericMethods.java:88)
+	at MakeMyTripPage.MakeMyTripPageImpl.searchTriptDetails(MakeMyTripPageImpl.java:28)
+	at com.modules.LoginTestModules.loginAndVerifyTitle(LoginTestModules.java:22)
+	at com.tests.TestLoginForApplicaion.loginAndVerifyTitle(TestLoginForApplicaion.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+ </div></p>
+<div style="overflow-x:auto; overflow-y:auto; width:100%; height:50%" > <img  src="TestLoginForApplicaion.png"  >
+</div>
+
+</body>
+</html>

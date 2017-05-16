@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+
+	  <!--  <aop:aspectj-autoproxy />    -->
+
+	  <bean id="genericMethodsBean"
+		class="com.utils.GenericMethods">
+	</bean>
+
+	 <bean id="doBeforeAspect"
+		class="com.AOP.snippets.enterprise.aspect.DoBeforeAspect" />
+
+	 <bean id="doAfterAspect"
+		class="com.AOP.snippets.enterprise.aspect.DoAfterAspect" />
+
+	<bean id="doAfterReturningAspect"
+		class="com.AOP.snippets.enterprise.aspect.DoAfterReturningAspect" />
+
+		<bean id="doAfterThrowingAspect"
+		class="com.AOP.snippets.enterprise.aspect.DoAfterThrowingAspect" />
+
+	<bean id="doAroundAspect" class="com.AOP.snippets.enterprise.aspect.DoAroundAspect" /> 
+ 
+	<aop:config>
+
+		<aop:aspect id="aspects" ref="doBeforeAspect">
+			<aop:pointcut id="pointCutBefore"
+				expression="execution(* com.utils.GenericMethods.*(..))" />
+			<aop:before method="doBefore" pointcut-ref="pointCutBefore" />
+		</aop:aspect>
+
+		<aop:aspect id="aspects" ref="doAfterAspect">
+			<aop:pointcut id="pointCutAfter"
+				expression="execution(*  com.utils.GenericMethods.*(..))" />
+			<aop:after method="doAfter" pointcut-ref="pointCutAfter" />
+		</aop:aspect>
+
+		<aop:aspect id="aspects" ref="doAfterReturningAspect">
+			<aop:pointcut id="pointCutAfterReturning"
+				expression="execution(*  com.utils.GenericMethods.*(..))"  />
+			<aop:after-returning method="doAfterReturning"
+				returning="result" pointcut-ref="pointCutAfterReturning" />
+		</aop:aspect>
+
+		<aop:aspect id="aspects" ref="doAfterThrowingAspect">
+
+			<aop:pointcut id="pointCutAfterThrowing"
+				expression="execution(*  com.utils.GenericMethods.*(..))"  />
+
+			<aop:after-throwing method="doAfterThrowing"
+				throwing="error" pointcut-ref="pointCutAfterThrowing" />
+		</aop:aspect>
+
+		<aop:aspect id="aspects" ref="doAroundAspect">
+
+			<aop:pointcut id="pointCutAround"
+				expression="execution(*  com.utils.GenericMethods.*(..))"  />
+
+			<aop:around method="doAround" pointcut-ref="pointCutAround" />
+
+		</aop:aspect>
+
+
+	</aop:config>  
+
+</beans>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<pageElements>
+
+	<page name="LoginPage">
+		<element name="userName" Descriptor="id" value="ap_email" />
+		<element name="password" Descriptor="id" value="ap_password" />
+		<element name="signInSubmit" Descriptor="id" value="signInSubmit" />
+	</page>
+	
+	<page name="HomePage">
+		<element name="signin" Descriptor="XPATH" value="//*[@id='nav-link-accountList']/span[1]" />
+		<element name="title" Descriptor="tagName" value="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs '&amp;' more" />
+	</page>
+	
+	<page name="MakeMyTripPage">
+		<element name="fromTextBox" Descriptor="ID" value="hp-widget__sfrom"  />
+		<element name="toTextBox" Descriptor="ID" value="hp-widget__sTo"  />
+		<element name="searchBtn" Descriptor="ID" value="searchBtn"  />
+	</page>
+
+</pageElements>

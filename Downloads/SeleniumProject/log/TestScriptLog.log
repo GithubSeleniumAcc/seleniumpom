@@ -1,0 +1,69 @@
+2017-05-10 14:42:00 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 14:42:13 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:42:17 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 14:42:17 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:42:19 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 14:42:19 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:42:29 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 14:43:52 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 14:44:03 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:44:09 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 14:44:09 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:44:11 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 14:44:11 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 14:44:20 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 15:54:03 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 15:54:10 [INFO] [main] [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@10caf5f: startup date [Wed May 10 15:54:10 IST 2017]; root of context hierarchy
+2017-05-10 15:54:11 [INFO] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-05-10 15:55:29 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 15:56:27 [INFO] [main] [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@10caf5f: startup date [Wed May 10 15:56:27 IST 2017]; root of context hierarchy
+2017-05-10 15:56:27 [INFO] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-05-10 15:56:47 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 15:56:56 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 15:57:00 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 15:57:00 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 15:57:01 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 15:57:01 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 15:57:07 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 15:59:51 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 15:59:59 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:00:02 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 16:00:02 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:00:04 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 16:00:04 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:00:12 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 16:01:47 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 16:01:55 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:01:58 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 16:01:58 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:01:59 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 16:01:59 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:02:05 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 16:08:53 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 16:09:02 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:09:05 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 16:09:05 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:09:06 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 16:09:06 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:09:15 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 16:33:45 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 16:34:12 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:34:19 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 16:34:19 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:34:23 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 16:34:23 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:34:31 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-10 16:41:54 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-10 16:42:23 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:42:26 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-10 16:42:26 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:42:27 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-10 16:42:27 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-10 16:42:34 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
+2017-05-11 13:24:23 [INFO] [main] [com.utils.GenericMethods] Chrome Launched
+2017-05-11 13:24:34 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-11 13:24:37 [INFO] [main] [com.utils.GenericMethods] Value (Bangalore) Entered in Page (MakeMyTripPage) Element (fromTextBox)
+2017-05-11 13:24:37 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-11 13:24:38 [INFO] [main] [com.utils.GenericMethods] Value (Mumbai) Entered in Page (MakeMyTripPage) Element (toTextBox)
+2017-05-11 13:24:38 [INFO] [main] [com.utils.GenericMethods] Loading Complete
+2017-05-11 13:24:44 [INFO] [main] [com.utils.GenericMethods] Clicked Page (MakeMyTripPage) Element (searchBtn)
